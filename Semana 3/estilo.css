@@ -1,0 +1,12 @@
+@import 'botoes.css';
+
+:root{
+    --cor-fundo-pagina: bisque;
+    --cor-fundo-bt: floralwhite;
+    --cor-fundo-bt-salvar:blueviolet;
+    --cor-fundo-bt-cancelar:brown;
+}
+
+body{
+    background-color: var(--cor-fundo-pagina);
+}
