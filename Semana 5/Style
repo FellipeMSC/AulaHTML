@@ -1,0 +1,129 @@
+.p1{
+    color: rgb(28, 28, 236);
+    text-align: center;
+    background-color: bisque;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+    margin-top: -7px;
+}
+
+.cab{
+   display: inline-block;
+   width: 1800px;
+   height: 330px;
+   border: 1px;
+   background-image: url('https://st2.depositphotos.com/2124563/9989/i/450/depositphotos_99892152-stock-photo-flag-football-club-real-madrid.jpg');
+   padding-left: 10px;
+   margin-left:25px; 
+}
+
+.nav{
+   margin-left: 210px;
+    display:inline;
+    position: static;
+    margin-top: 40px;
+    padding-right: 60px;
+    border: black;
+    font-size: 25px;
+    background-color: #ffffff;
+    color: black;
+    
+    
+}
+
+.box-busca{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+}
+.search-box-input::placeholder {
+    
+    color:#ffffff;
+    opacity: 0.6;
+}
+
+.search-box form {
+    
+    display: inline-flex;
+    border-radius: 50px;
+    background-color: #dbb1b1;
+    height: 45px;
+}
+.search-box:hover .search-box-input {
+    
+    padding-left: 2em;
+    padding-right: 1em;
+    width: 250px;
+}
+.search-box-input {
+    outline: 0;
+    font-size: 1.2em;
+    color: #fff;
+    width: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    transition: .45s;
+}
+.search-box-button {
+   display: inline-flex;
+   border-radius: 50%;
+   width: 45px;
+   height: 45px;
+   background-color: #dac7c7;
+   border: none;
+   cursor: pointer;
+   transition: .3s;
+}
+.search-box-button:active  {
+    transform: scale(.85);
+}
+.search-box-icone {
+    margin: auto;
+    color: #fff;
+}
+@media screen and (min-width: 400px){
+    
+    .search-box:hover .search-box-input {
+        width: 360px;
+    }
+}
+
+.slider{
+    display:flex;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-color: rgb(28, 28, 236);
+    padding: 10px;
+    
+    
+} 
+
+.back{
+    background-image: url("https://i.pinimg.com/736x/bf/b1/bb/bfb1bb2a343111bd30a4a785f6b5ec24.jpg"); 
+    background-size: auto;
+}
+.nome{
+    display: flex;
+}
+
+.camisa{
+    font-size: 18px;
+    padding-right: 440px;
+    padding-left: 40px;
+}
+
+.moletom{
+    font-size: 18px;
+    padding-right: 380px;
+}
+
+.calça{
+    font-size: 18px;
+    padding-right: 380px;
+}
